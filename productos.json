@@ -1,0 +1,44 @@
+[
+    {
+        "id": "mate-1",
+        "titulo": "Mate Tradicional",
+        "precio": 45000,
+        "categoria": "mates",
+        "imagen": "./img/mate-tradicional.png"
+    },
+    {
+        "id": "mate-2",
+        "titulo": "Mate de Madera",
+        "precio": 35000,
+        "categoria": "mates",
+        "imagen": "./img/mate-de-madera.png"
+    },
+    {
+        "id": "bombilla-1",
+        "titulo": "Bombilla de Alpaca",
+        "precio": 50000,
+        "categoria": "bombillas",
+        "imagen": "./img/bombilla-de-alpaca.png"
+    },
+    {
+        "id": "bombilla-2",
+        "titulo": "Bombilla de Acero",
+        "precio": 30000,
+        "categoria": "bombillas",
+        "imagen": "./img/bombilla-de-acero.png"
+    },
+    {
+        "id": "accesorio-1",
+        "titulo": "Porta Mate",
+        "precio": 35000,
+        "categoria": "accesorios",
+        "imagen": "./img/porta-mate.png"
+    },
+    {
+        "id": "accesorio-2",
+        "titulo": "Termo",
+        "precio": 40000,
+        "categoria": "accesorios",
+        "imagen": "./img/termo.png"
+    }
+]

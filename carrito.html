@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="main.css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Mi Carrito</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav-button">Volver a la tienda</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 id="cart-title">Tu Carrito</h2>
+        <div id="cart-container" class="cart-container">
+            <!-- se cargan los productos del carrito  -->
+        </div>
+        <div id="cart-actions" class="cart-actions">
+            <button id="empty-cart" class="cart-button">Vaciar carrito</button>
+            <div class="cart-total">
+                <p>Total: $<span id="cart-total">0</span></p>
+            </div>
+            <button id="checkout" class="cart-button">Finalizar compra</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Tienda de Mates</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>

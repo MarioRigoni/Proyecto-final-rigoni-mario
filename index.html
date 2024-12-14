@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mates</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="main.css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Mates del Alma</h1>
+        <nav class="nav">
+            <button class="nav-button" id="todos">Todos los productos</button>
+            <button class="nav-button" id="mates">Mates</button>
+            <button class="nav-button" id="bombillas">Bombillas</button>
+            <button class="nav-button" id="accesorios">Accesorios</button>
+            <div class="cart">
+                <span id="cart-count">0</span>
+                <a href="carrito.html" id="cart-link">Carrito</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 id="main-title">Todos los productos</h2>
+        <div class="product-container" id="product-container">
+            <!-- se cargan los productos dinámicamente -->
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Mates del Alma</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
